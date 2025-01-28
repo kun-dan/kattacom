@@ -1,0 +1,56 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+    }
+    .toolbar {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        color: white;
+        padding: 10px 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+    
+    .toolbar .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    .toolbar nav {
+        display: inline-block;
+        margin-left: 20px;
+    }
+    
+    .toolbar nav a {
+        color: white;
+        text-decoration: none;
+        margin-right: 15px;
+        font-size: 1rem;
+    }
+    
+    .toolbar nav a:hover {
+        text-decoration: underline;
+    }
+    .content {
+        padding: 80px 20px;
+    }
+    .image_shop{
+         width: 100%;
+         overflow: hidden;
+    }
+    .image_shop img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    
