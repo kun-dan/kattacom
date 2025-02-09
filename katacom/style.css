@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-color: #f5f6f7;
+    font-family: monospace;
+    padding:  20px 10px;
+    border-bottom: 5px solid rgb(59, 59, 79);
+    
+}
+.bar {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 114px;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+    margin-left: 20px; 
+    flex-wrap: wrap; /
+}
+
+ul li {
+    display: inline-block;
+    
+}
+
+li a {
+    color: #1b1b32;;
+    font-size: 24px; 
+    text-decoration: none;
+    font-weight: bolder;
+    display: flex;
+    
+}
+
+.icons { 
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    margin-left: auto; 
+    padding-right: 20px; 
+    
+}
+
+.icons img {
+    width: auto;
+    height:100% ;
+    max-width: 30px
+    
+    
+}
+.image_shop {
+    width: 97%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    position: relative; 
+    display: flexs;
+}
+
+.image_shop img {
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+.image_shop .big_text {
+    position: absolute;
+    top: 40%; 
+    left: 24%;
+    transform: translateX(-50%); 
+    font-size:8.2vw; 
+    color: white;
+    font-weight:1000;
+    
+}
+
+.image_shop .small_text {
+    position: absolute;
+    top: 55%;
+    left: 20.9%;
+    transform: translateX(-50%);
+    font-size: 1.5vw;
+    color: white;
+    font-weight: 550;
+}
+
+.image_shop .text_button{
+    position: absolute;
+    top: 60%;
+    left: 11.5%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 255, 255); 
+    padding: 1vw 2vw; 
+    width: auto;
+    border: none;
+    outline: none;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 10px;
+
+
+}
+.image_shop .text_button button {
+    border: none;
+    background-color: rgb(255, 255, 255); 
+    font-size: 1.2vw;
+    cursor: pointer;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+}
+
+.image_shop .text_button a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.2vw;
+    display: block; 
+    text-align: center; 
+}
+.image_shop2 {
+    width: 97%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    position: relative; 
+    display: flexs;
+}
+
+.image_shop2 img {
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+.image_shop2 .big_text {
+    position: absolute;
+    top: 40%; 
+    left: 26.5%;
+    transform: translateX(-50%); 
+    font-size:8.2vw; 
+    color: white;
+    font-weight:1000;
+    
+}
+
+.image_shop2 .small_text {
+    position: absolute;
+    top: 55%;
+    left: 16.7%;
+    transform: translateX(-50%);
+    font-size: 1.5vw;
+    color: white;
+    font-weight: 550;
+}
+
+.image_shop2 .text_button{
+    position: absolute;
+    top: 60%;
+    left: 10.5%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 255, 255); 
+    padding: 1vw 2vw; 
+    width: auto;
+    border: none;
+    outline: none;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 10px;
+
+
+}
+.image_shop2 .text_button button {
+    border: none;
+    background-color: rgb(255, 255, 255); 
+    font-size: 1.2vw;
+    cursor: pointer;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+}
+
+.image_shop2 .text_button a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.2vw;
+    display: block; 
+    text-align: center; 
+}
+.image_shop3 {
+    width: 97%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    position: relative; 
+    display: flexs;
+}
+
+.image_shop3 img {
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+.image_shop3 .big_text {
+    position: absolute;
+    top: 40%; 
+    left: 23%;
+    transform: translateX(-50%); 
+    font-size:8.2vw; 
+    color: white;
+    font-weight:1000;
+    
+}
+
+.image_shop3 .small_text {
+    position: absolute;
+    top: 55%;
+    left: 16.6%;
+    transform: translateX(-50%);
+    font-size: 1.5vw;
+    color: white;
+    font-weight: 550;
+}
+
+.image_shop3 .text_button{
+    position: absolute;
+    top: 60%;
+    left: 10.5%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 255, 255); 
+    padding: 1vw 2vw; 
+    width: auto;
+    border: none;
+    outline: none;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 10px;
+
+}
+.image_shop3 .text_button button {
+    border: none;
+    background-color: rgb(255, 255, 255); 
+    font-size: 1.2vw;
+    cursor: pointer;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+}
+
+.image_shop3 .text_button a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.2vw;
+    display: block; 
+    text-align: center; 
+}
